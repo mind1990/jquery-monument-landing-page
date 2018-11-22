@@ -145,12 +145,12 @@ section {
 Header
 ------------------------------------------- */
 header {
-	padding-top: 30px;
-	background-repeat: no-repeat;
+	background-image: url('../images/blog_header_bg.jpg');
 	background-size: cover;
-	background-image: url('../images/home_header_bg.jpg');
-	background-attachment: fixed;
-	height: 100vh;
+	background-position: center;
+	height: 350px;
+	margin-bottom: 48px;
+	margin-bottom: 3rem;
 }
 nav {
 	position: fixed;
@@ -346,6 +346,7 @@ Footer
 footer {
 	background-color: #CDF3F6;
 	overflow: auto;
+	width: 100%;
 }
 
 footer input {
@@ -357,10 +358,11 @@ footer input {
 	text-align: center;
 }
 
-footer .wrap {
+/*footer {
 	padding: 30px 15px;
 	padding: 2rem 1rem;
-}
+	width: 100%;
+}*/
 
 .social-links a {
 	font-size: 30px;
@@ -377,6 +379,15 @@ footer .wrap {
 	border-top: 2px solid #44545E;
 	padding: 15px 0 3px;
 	padding: 1rem 0 .2rem;
+}
+
+footer {
+	width: 100%;
+	height: 273px;
+}
+
+.footer-wrap {
+	width: 100%;
 }
 
 /* ----------------------------------------
@@ -454,4 +465,6 @@ Media Queries
 }
 
 
-
+.error {
+	border: 2px solid #ED5254
+}
